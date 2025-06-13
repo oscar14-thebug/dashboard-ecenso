@@ -43,12 +43,12 @@ export function useCensusData() {
   useEffect(() => {
     // Datos de ejemplo fijos
     const mockData: CensusData = {
-      total: 837,
+      total: 7,
       resumenEstados: {
-        noIniciaron: 826,
-        enProgreso: 1,
-        autocensadas: 9,
-        presencial: 1,
+        noIniciaron: 7,
+        enProgreso: 0,
+        autocensadas: 0,
+        presencial: 0,
       },
       descripcionEstados: {
         1: "No inició el e-Censo",
@@ -57,10 +57,10 @@ export function useCensusData() {
         4: "Censo presencial",
       },
       motivosEntrega: {
-        1: 606,
-        2: 91,
-        3: 137,
-        4: 3,
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0,
       },
       descripcionMotivos: {
         1: "Vivienda Ausente, se entregó Código Único de Vivienda (CUV)",
