@@ -43,11 +43,11 @@ export function useCensusData() {
   useEffect(() => {
     // Datos de ejemplo fijos
     const mockData: CensusData = {
-      total: 98,
+      total: 114,
       resumenEstados: {
-        noIniciaron: 84,
-        enProgreso: 7,
-        autocensadas: 7,
+        noIniciaron: 96,
+        enProgreso: 6,
+        autocensadas: 12,
         presencial: 0,
       },
       descripcionEstados: {
