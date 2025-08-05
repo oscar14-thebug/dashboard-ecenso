@@ -34,7 +34,7 @@ export interface CensusData {
     4: string
   }
 }
-
+//test
 export function useCensusData() {
   const [data, setData] = useState<CensusData | null>(null)
   const [loading, setLoading] = useState(false)
