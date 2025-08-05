@@ -50,7 +50,6 @@ export function useCensusData() {
         autocensadas: 6,
         presencial: 0,
       },
-      //hi
       descripcionEstados: {
         1: "No inició el e-Censo",
         2: "e-Censo en proceso",
